@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+
+      
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab
+        :400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am  <strong> Sanem Yaman</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">software engineering student</p>
+            <img src="img/SY.jpeg" alt="a picture of me" class ="intro__img">
+        </section>
+
+       
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services"> What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3> Design + Development</h3>
+                    <p> Designing and developing <br> of mobile applications and websites </p>
+                </div> 
+                <div class="service">
+                    <h3> Wordpress </h3>
+                    <p> Wordpress site design, development and management </p>
+                </div> 
+                <div class="service">
+                    <h3>Project Management</h3>
+                    <p> Management of various website projects </p>
+                </div> 
+            </div> 
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+     
+
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about"> Who I am</h2>
+            <p class="section__subtitle section__subtitle--about"> Junior Developer</p>
+
+            <div class="about-me__body">
+                <p>I am a 4th grade student in Software Engineering in Izmir University of Economics. Being a part of innovations always excites me. That's why I
+                    enjoy being in my department and I'm very eager to do new things. During my education, I continue to improve
+                    myself in terms of research, self-motivation, entrepreneurship and acquiring different skills.</p>
+                <p>I am dealing with mobile application and web development. I am trying to develop new websites with new technologies and I also develop mobile applications by using Flutter.</p>
+            </div>
+
+            <img src="img/SanemYaman.jpeg" alt="me" class= "about-me__img">
+        </section>
+
+       
+        <section class="my-work" id="work">
+            <h2 class="section__title">My Work</h2>
+            <p class="section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/veggify.PNG" alt="" class=  "portfolio__img">
+                </a>
+                <a href="portfolio-item2.html" class="portfolio__item">
+                    <img src="img/dotask.png" alt="" class=  "portfolio__img">
+                </a>
+               
+            </div>
+        </section>
+
+      
+        <footer class="footer">
+            <a href="mailto:snmymn1606@gmail.com" class="footer__link">snmymn1606@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list_link" href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list_link" href="https://www.github.com/"><i class="fab fa-github"></i></a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
